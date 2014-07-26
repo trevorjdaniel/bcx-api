@@ -131,7 +131,7 @@ To hide a message from clients, set its `private` attribute to `true`.
   "subject": "Hello everyone",
   "content": "This is going to be a GREAT Saturday!",
   "subscribers": [1, 5, 6],
-  "private": true
+  "_private": true
 }
 ```
 
