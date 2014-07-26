@@ -83,8 +83,8 @@ make another request to the `attachable`'s `url` value.
 
 We will return 50 attachments per page. If the
 result set has 50 attachments, it's your responsibility to check the next page
-to see if there are any more attachments -- you do this by adding `&page=2` to the
-query, then `&page=3` and so on.
+to see if there are any more attachments -- you do this by adding `?page=2` to the
+query, then `?page=3` and so on.
 
 It's also possible to change the order attachments are returned in with the `sort`
 parameter. Attachments can be sorted by name, size and age using the parameter
